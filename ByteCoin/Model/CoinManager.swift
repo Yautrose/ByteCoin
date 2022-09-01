@@ -11,7 +11,8 @@ struct CoinManager {
     let baseURL = "https://rest.coinapi.io/v1/exchangerate/BTC"
     let apiKey = "0F30819D-5E5A-4915-9146-96504FD1E992"
     var delegate: CoinManagerDelegate?
-    // full request: https://rest.coinapi.io/v1/exchangerate/BTC/USD?apikey=0F30819D-5E5A-4915-9146-96504FD1E992
+    
+    
     
     let currencyArray = ["AUD", "BRL","CAD","CNY","EUR","GBP","HKD","IDR","ILS","INR","JPY","MXN","NOK","NZD","PLN","RON","RUB","SEK","SGD","USD","ZAR"]
         
